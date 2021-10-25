@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fmoura <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/25 17:50:52 by fmoura            #+#    #+#             */
-/*   Updated: 2021/10/25 17:50:54 by fmoura           ###   ########.fr       */
+/*   Created: 2021/10/25 17:51:19 by fmoura            #+#    #+#             */
+/*   Updated: 2021/10/25 17:51:22 by fmoura           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <stdlib.h>
 
@@ -22,8 +22,8 @@
 char	*get_next_line(int fd);
 char	*ft_read_to_left_str(int fd, char *left_str);
 char	*ft_strchr(char *s, int c);
-char	*ft_strjoin(char *left_str, char *buff);
 size_t	ft_strlen(char *s);
+char	*ft_strjoin(char *left_str, char *buff);
 char	*ft_get_line(char *left_str);
 char	*ft_new_left_str(char *left_str);
 
